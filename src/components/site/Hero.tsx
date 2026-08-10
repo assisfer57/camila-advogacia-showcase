@@ -76,13 +76,16 @@ export function Hero() {
             style={{ boxShadow: "var(--shadow-elegant)" }}
           />
           <img
-            src={IMAGES.grid}
+            src={IMAGES.office}
             alt="Camila Silva em atendimento no escritório"
-            width={864}
-            height={1152}
+            width={1280}
+            height={800}
             loading="lazy"
-            className="absolute -bottom-10 -left-8 hidden w-40 border-4 border-background object-cover sm:block lg:w-52 aspect-[4/3] object-[50%_0%]"
-            style={{ boxShadow: "var(--shadow-elegant)" }}
+            className="absolute -bottom-10 -left-8 hidden w-48 border-2 border-primary/20 object-cover sm:block lg:w-64 aspect-[4/3]"
+            style={{ 
+              boxShadow: "var(--shadow-elegant)",
+              clipPath: "polygon(10% 0, 100% 0, 90% 100%, 0 100%)" 
+            }}
           />
           <div
             className="absolute -right-4 bottom-10 hidden bg-card/95 px-5 py-4 backdrop-blur lg:block"
