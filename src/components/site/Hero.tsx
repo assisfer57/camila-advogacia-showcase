@@ -17,8 +17,11 @@ export function Hero() {
 
       <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-[1.05fr_1fr] lg:gap-8">
         <div>
-          <Reveal>
+          <Reveal delay={50}>
             <p className="eyebrow">Bem-vinda(o)!</p>
+          </Reveal>
+          
+          <Reveal delay={150}>
             <p className="mt-6 text-sm tracking-[0.3em] text-muted-foreground uppercase">Eu sou</p>
             <h1 className="mt-4 pb-6 font-script text-6xl leading-[1.3] text-gradient-gold sm:text-7xl lg:text-8xl">
               Camila Silva
@@ -28,7 +31,7 @@ export function Hero() {
             </p>
           </Reveal>
 
-          <Reveal delay={100}>
+          <Reveal delay={250}>
             <div className="gold-rule mt-8 w-28" />
 
             <p className="mt-8 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
@@ -39,7 +42,7 @@ export function Hero() {
             </p>
           </Reveal>
 
-          <Reveal delay={200}>
+          <Reveal delay={350}>
             <div className="mt-10 flex flex-col gap-3 sm:flex-row">
               <a
                 href={whatsappLink(
@@ -70,7 +73,7 @@ export function Hero() {
         </div>
 
         <div className="relative mx-auto w-full max-w-md lg:max-w-none">
-          <Reveal delay={300} className="relative">
+          <Reveal delay={450} className="relative">
             <div
               aria-hidden="true"
               className="absolute -top-6 -left-6 hidden size-40 border border-primary/40 sm:block"
@@ -109,7 +112,7 @@ export function Hero() {
       </div>
 
       <div className="mx-auto mt-20 max-w-7xl px-5 sm:px-8">
-        <Reveal delay={400}>
+        <Reveal delay={550}>
           <dl className="grid divide-y divide-border border border-border sm:grid-cols-3 sm:divide-x sm:divide-y-0">
             {[
               { k: "+7 anos", v: "de atuação na advocacia" },
