@@ -1,5 +1,5 @@
 import { GraduationCap } from "lucide-react";
-import escritorio from "@/assets/camila-escritorio.jpg";
+import { IMAGES } from "@/lib/images";
 import { Reveal } from "./Reveal";
 
 const POS = [
@@ -16,12 +16,12 @@ export function About() {
         <Reveal>
           <div className="relative">
             <img
-              src={escritorio}
+              src={IMAGES.grid}
               alt="Camila Silva apoiada na mesa do escritório"
               width={864}
               height={1152}
               loading="lazy"
-              className="w-full object-cover"
+              className="w-full object-cover aspect-[4/5] object-[left_bottom]"
               style={{ boxShadow: "var(--shadow-elegant)" }}
             />
             <div

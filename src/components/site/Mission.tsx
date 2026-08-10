@@ -1,5 +1,6 @@
 import { Quote } from "lucide-react";
 import { Reveal } from "./Reveal";
+import { IMAGES } from "@/lib/images";
 
 export function Mission() {
   return (
@@ -11,7 +12,14 @@ export function Mission() {
       <div className="relative mx-auto max-w-4xl px-5 text-center sm:px-8">
         <Reveal>
           <Quote className="mx-auto size-8 text-primary" aria-hidden="true" />
-          <p className="eyebrow mt-7">Minha missão</p>
+          <div className="mx-auto mb-8 flex justify-center">
+            <img 
+              src={IMAGES.grid} 
+              alt="Camila Silva" 
+              className="size-24 rounded-full object-cover object-[left_center] border-2 border-primary ring-4 ring-primary/20"
+            />
+          </div>
+          <p className="eyebrow mt-4">Minha missão</p>
           <blockquote className="mt-8 font-serif text-3xl leading-[1.25] text-foreground italic sm:text-4xl lg:text-[2.75rem]">
             “Acredito que o Direito é uma ferramenta de transformação, capaz de proporcionar amparo,
             justiça e tranquilidade em momentos decisivos.”

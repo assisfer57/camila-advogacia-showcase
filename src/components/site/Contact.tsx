@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { IMAGES } from "@/lib/images";
 import { MessageCircle, Instagram, MapPin, Phone } from "lucide-react";
 import { INSTAGRAM_URL, MAPS_URL, PHONE_DISPLAY, whatsappLink } from "@/lib/site";
 import { AREAS } from "@/lib/site";
@@ -23,11 +24,18 @@ export function Contact() {
         <div>
           <Reveal>
             <p className="eyebrow">Contato</p>
-            <h2 className="mt-5 text-4xl leading-tight sm:text-5xl">
-              Será um prazer
-              <br />
-              <span className="text-gradient-gold italic">te atender!</span>
-            </h2>
+            <div className="mt-8 mb-8 flex items-center gap-6">
+              <img 
+                src={IMAGES.grid} 
+                alt="Camila Silva" 
+                className="size-20 rounded-full object-cover object-[right_center] border-2 border-primary"
+              />
+              <h2 className="text-4xl leading-tight sm:text-5xl">
+                Será um prazer
+                <br />
+                <span className="text-gradient-gold italic">te atender!</span>
+              </h2>
+            </div>
             <div className="gold-rule mt-8 w-20" />
             <p className="mt-7 max-w-lg text-base leading-relaxed text-muted-foreground">
               Me conte o que está acontecendo. A primeira conversa é para entender o seu caso e
