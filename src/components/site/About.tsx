@@ -16,12 +16,12 @@ export function About() {
         <Reveal>
           <div className="relative">
             <img
-              src={IMAGES.grid}
-              alt="Camila Silva apoiada na mesa do escritório"
-              width={864}
-              height={1152}
+              src={IMAGES.about}
+              alt="Camila Silva sentada em seu escritório"
+              width={853}
+              height={1280}
               loading="lazy"
-              className="w-full object-cover aspect-[4/5] object-[0%_100%]"
+              className="w-full object-cover aspect-[4/5]"
               style={{ boxShadow: "var(--shadow-elegant)" }}
             />
             <div
