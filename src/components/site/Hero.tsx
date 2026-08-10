@@ -1,6 +1,5 @@
 import { MessageCircle, ArrowDownRight, MapPin } from "lucide-react";
-import retrato from "@/assets/camila-retrato.jpg";
-import escritorio from "@/assets/camila-escritorio.jpg";
+import { IMAGES } from "@/lib/images";
 import { whatsappLink } from "@/lib/site";
 
 export function Hero() {
@@ -69,7 +68,7 @@ export function Hero() {
             className="absolute -top-6 -left-6 hidden size-40 border border-primary/40 sm:block"
           />
           <img
-            src={retrato}
+            src={IMAGES.hero}
             alt="Camila Silva, advogada, sentada em seu escritório"
             width={853}
             height={1280}
@@ -77,12 +76,12 @@ export function Hero() {
             style={{ boxShadow: "var(--shadow-elegant)" }}
           />
           <img
-            src={escritorio}
+            src={IMAGES.grid}
             alt="Camila Silva em atendimento no escritório"
             width={864}
             height={1152}
             loading="lazy"
-            className="absolute -bottom-10 -left-8 hidden w-40 border-4 border-background object-cover sm:block lg:w-52"
+            className="absolute -bottom-10 -left-8 hidden w-40 border-4 border-background object-cover sm:block lg:w-52 aspect-[4/3] object-[center_top]"
             style={{ boxShadow: "var(--shadow-elegant)" }}
           />
           <div
