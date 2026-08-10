@@ -81,7 +81,7 @@ export function Hero() {
             width={864}
             height={1152}
             loading="lazy"
-            className="absolute -bottom-10 -left-8 hidden w-40 border-4 border-background object-cover sm:block lg:w-52 aspect-[4/3] object-[center_top]"
+            className="absolute -bottom-10 -left-8 hidden w-40 border-4 border-background object-cover sm:block lg:w-52 aspect-[4/3] object-[50%_0%]"
             style={{ boxShadow: "var(--shadow-elegant)" }}
           />
           <div
