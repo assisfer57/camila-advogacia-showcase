@@ -1,6 +1,7 @@
 import heroAsset from "@/assets/camila-hero-new.png.asset.json";
 import gridAsset from "@/assets/camila-grid-v2.png.asset.json";
 import officeAsset from "@/assets/camila-office-shelf.png.asset.json";
+import cityViewAsset from "@/assets/camila-office-cityview.png.asset.json";
 
 export const IMAGES = {
   // Main portrait (Photo 1 - single)
@@ -12,4 +13,7 @@ export const IMAGES = {
 
   // New office photo
   office: officeAsset.url,
+
+  // New city view photo for smaller elements
+  avatar: cityViewAsset.url,
 };

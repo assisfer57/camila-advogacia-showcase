@@ -26,9 +26,9 @@ export function Contact() {
             <p className="eyebrow">Contato</p>
             <div className="mt-8 mb-8 flex items-center gap-6">
               <img 
-                src={IMAGES.grid} 
+                src={IMAGES.avatar} 
                 alt="Camila Silva" 
-                className="size-20 rounded-full object-cover object-[85%_65%] border-2 border-primary"
+                className="size-20 rounded-full object-cover border-2 border-primary"
               />
               <h2 className="text-4xl leading-tight sm:text-5xl">
                 Será um prazer

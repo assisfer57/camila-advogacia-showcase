@@ -14,9 +14,9 @@ export function Mission() {
           <Quote className="mx-auto size-8 text-primary" aria-hidden="true" />
           <div className="mx-auto mb-8 flex justify-center">
             <img 
-              src={IMAGES.grid} 
+              src={IMAGES.avatar} 
               alt="Camila Silva" 
-              className="size-24 rounded-full object-cover object-[15%_65%] border-2 border-primary ring-4 ring-primary/20"
+              className="size-24 rounded-full object-cover border-2 border-primary ring-4 ring-primary/20"
             />
           </div>
           <p className="eyebrow mt-4">Minha missão</p>
