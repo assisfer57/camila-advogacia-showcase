@@ -19,7 +19,7 @@ export function Hero() {
         <div>
           <p className="eyebrow">Bem-vinda(o)!</p>
           <p className="mt-6 text-sm tracking-[0.3em] text-muted-foreground uppercase">Eu sou</p>
-          <h1 className="mt-1 font-script text-6xl leading-[0.95] text-gradient-gold sm:text-7xl lg:text-8xl">
+          <h1 className="mt-1 font-script text-6xl leading-[1.2] text-gradient-gold sm:text-7xl lg:text-8xl">
             Camila Silva
           </h1>
           <p className="mt-3 font-serif text-2xl tracking-[0.18em] text-foreground uppercase sm:text-3xl">
