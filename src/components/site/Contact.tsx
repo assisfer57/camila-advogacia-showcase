@@ -28,7 +28,7 @@ export function Contact() {
               <img 
                 src={IMAGES.grid} 
                 alt="Camila Silva" 
-                className="size-20 rounded-full object-cover object-[right_center] border-2 border-primary"
+                className="size-20 rounded-full object-cover object-[85%_65%] border-2 border-primary"
               />
               <h2 className="text-4xl leading-tight sm:text-5xl">
                 Será um prazer

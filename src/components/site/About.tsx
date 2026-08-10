@@ -21,7 +21,7 @@ export function About() {
               width={864}
               height={1152}
               loading="lazy"
-              className="w-full object-cover aspect-[4/5] object-[left_bottom]"
+              className="w-full object-cover aspect-[4/5] object-[0%_100%]"
               style={{ boxShadow: "var(--shadow-elegant)" }}
             />
             <div
