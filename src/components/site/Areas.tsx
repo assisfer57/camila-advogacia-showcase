@@ -3,7 +3,6 @@ import previdenciario from "@/assets/area-previdenciario.jpg";
 import familia from "@/assets/area-familia.jpg";
 import criminal from "@/assets/area-criminal.jpg";
 import { AREAS, whatsappLink } from "@/lib/site";
-import { IMAGES as SITE_IMAGES } from "@/lib/images";
 import { Reveal } from "./Reveal";
 
 const IMAGES: Record<string, string> = {
@@ -36,16 +35,12 @@ export function Areas() {
               <article className="group flex h-full flex-col border border-border bg-card transition-colors duration-500 hover:border-primary/60">
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <img
-                    src={SITE_IMAGES.grid}
+                    src={IMAGES[area.id]}
                     alt={`Ilustração da área de ${area.title}`}
                     width={1200}
                     height={912}
                     loading="lazy"
-                    className={`size-full object-cover transition-transform duration-700 group-hover:scale-105 ${
-                      area.id === "previdenciario" ? "object-[right_top]" : 
-                      area.id === "familia" ? "object-[left_center]" : 
-                      "object-[right_bottom]"
-                    }`}
+                    className="size-full object-cover grayscale transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0"
                   />
                   <div
                     aria-hidden="true"
