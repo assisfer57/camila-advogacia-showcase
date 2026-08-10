@@ -1,6 +1,7 @@
 import { MessageCircle, ArrowDownRight, MapPin } from "lucide-react";
 import { IMAGES } from "@/lib/images";
 import { whatsappLink } from "@/lib/site";
+import { Reveal } from "./Reveal";
 
 export function Hero() {
   return (
@@ -16,14 +17,27 @@ export function Hero() {
 
       <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-[1.05fr_1fr] lg:gap-8">
         <div>
-          <p className="eyebrow">Bem-vinda(o)!</p>
-          <p className="mt-6 text-sm tracking-[0.3em] text-muted-foreground uppercase">Eu sou</p>
-          <h1 className="mt-4 pb-4 font-script text-6xl leading-[1.1] text-gradient-gold sm:text-7xl lg:text-8xl">
-            Camila Silva
-          </h1>
-          <p className="mt-3 font-serif text-2xl tracking-[0.18em] text-foreground uppercase sm:text-3xl">
-            Advogada
-          </p>
+          <Reveal>
+            <p className="eyebrow">Bem-vinda(o)!</p>
+            <p className="mt-6 text-sm tracking-[0.3em] text-muted-foreground uppercase">Eu sou</p>
+            <h1 className="mt-4 pb-6 font-script text-6xl leading-[1.3] text-gradient-gold sm:text-7xl lg:text-8xl">
+              Camila Silva
+            </h1>
+            <p className="mt-3 font-serif text-2xl tracking-[0.18em] text-foreground uppercase sm:text-3xl">
+              Advogada
+            </p>
+          </Reveal>
+
+          <Reveal delay={100}>
+            <div className="gold-rule mt-8 w-28" />
+
+            <p className="mt-8 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
+              Mais de <span className="text-foreground">7 anos de experiência</span> com atuação
+              estratégica, técnica e humanizada nas áreas{" "}
+              <span className="text-foreground">Previdenciária, Tributária, Família e Criminal</span>.
+              Atendimento em todo o Brasil.
+            </p>
+          </Reveal>
 
           <div className="gold-rule mt-8 w-28" />
 
