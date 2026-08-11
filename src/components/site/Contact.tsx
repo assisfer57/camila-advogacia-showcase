@@ -20,7 +20,7 @@ export function Contact() {
         aria-hidden="true"
         className="pointer-events-none absolute -bottom-32 -left-32 size-[28rem] rounded-full bg-primary/8 blur-[120px]"
       />
-      <div className="relative mx-auto grid max-w-7xl gap-14 px-5 sm:px-8 lg:grid-cols-2 lg:gap-20">
+      <div className="relative mx-auto grid max-w-8xl gap-14 px-6 sm:px-10 lg:grid-cols-2 lg:gap-20 lg:px-16">
         <div>
           <Reveal>
             <p className="eyebrow">Contato</p>

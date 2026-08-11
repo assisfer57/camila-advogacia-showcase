@@ -5,7 +5,7 @@ import { Reveal } from "./Reveal";
 
 export function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden pt-32 pb-16 sm:pt-40 sm:pb-24">
+    <section id="top" className="relative overflow-hidden pt-32 pb-16 sm:pt-40 sm:pb-24 lg:pt-48">
       <div
         aria-hidden="true"
         className="pointer-events-none absolute -top-40 -right-32 size-[34rem] rounded-full bg-primary/10 blur-[120px]"
@@ -15,7 +15,7 @@ export function Hero() {
         className="pointer-events-none absolute top-1/3 -left-40 size-[26rem] rounded-full bg-primary/5 blur-[110px]"
       />
 
-      <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-[1.05fr_1fr] lg:gap-8">
+      <div className="mx-auto grid max-w-8xl items-center gap-14 px-6 sm:px-10 lg:grid-cols-[1.05fr_1fr] lg:gap-12 lg:px-16">
         <div>
           <Reveal delay={50}>
             <p className="eyebrow">Bem-vinda(o)!</p>
@@ -111,7 +111,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="mx-auto mt-20 max-w-7xl px-5 sm:px-8">
+      <div className="mx-auto mt-20 max-w-8xl px-6 sm:px-10 lg:px-16">
         <Reveal delay={550}>
           <dl className="grid divide-y divide-border border border-border sm:grid-cols-3 sm:divide-x sm:divide-y-0">
             {[
