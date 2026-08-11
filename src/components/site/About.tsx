@@ -12,7 +12,7 @@ const POS = [
 export function About() {
   return (
     <section id="sobre" className="border-t border-border py-24 sm:py-32">
-      <div className="mx-auto grid max-w-7xl gap-14 px-5 sm:px-8 lg:grid-cols-2 lg:gap-20">
+      <div className="mx-auto grid max-w-8xl gap-14 px-6 sm:px-10 lg:grid-cols-2 lg:gap-20 lg:px-16">
         <Reveal>
           <div className="relative">
             <img
