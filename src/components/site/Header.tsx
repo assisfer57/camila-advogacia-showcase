@@ -19,7 +19,7 @@ export function Header() {
         solid ? "border-b border-border bg-background/90 backdrop-blur-xl" : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex h-20 max-w-8xl items-center justify-between px-6 sm:px-10 lg:px-16">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 sm:px-10 lg:px-16">
         <a href="#top" className="group flex flex-col leading-none">
           <span className="font-script text-3xl text-primary transition-opacity group-hover:opacity-80">
             Camila Silva

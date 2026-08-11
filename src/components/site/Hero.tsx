@@ -15,7 +15,7 @@ export function Hero() {
         className="pointer-events-none absolute top-1/3 -left-40 size-[26rem] rounded-full bg-primary/5 blur-[110px]"
       />
 
-      <div className="mx-auto grid max-w-8xl items-center gap-14 px-6 sm:px-10 lg:grid-cols-[1.05fr_1fr] lg:gap-12 lg:px-16">
+      <div className="mx-auto grid max-w-7xl items-center gap-14 px-6 sm:px-10 lg:grid-cols-[1.05fr_1fr] lg:gap-12 lg:px-16">
         <div>
           <Reveal delay={50}>
             <p className="eyebrow">Bem-vinda(o)!</p>
@@ -23,7 +23,7 @@ export function Hero() {
           
           <Reveal delay={150}>
             <p className="mt-6 text-sm tracking-[0.3em] text-muted-foreground uppercase">Eu sou</p>
-            <h1 className="mt-4 pb-6 font-script text-6xl leading-[1.3] text-gradient-gold sm:text-7xl lg:text-8xl">
+            <h1 className="mt-4 pb-4 font-script text-6xl leading-[1.1] text-gradient-gold sm:text-7xl lg:text-8xl">
               Camila Silva
             </h1>
             <p className="mt-3 font-serif text-2xl tracking-[0.18em] text-foreground uppercase sm:text-3xl">
@@ -94,8 +94,7 @@ export function Hero() {
               loading="lazy"
               className="absolute -bottom-10 -left-8 hidden w-48 border-2 border-primary/20 object-cover sm:block lg:w-64 aspect-[4/3]"
               style={{ 
-                boxShadow: "var(--shadow-elegant)",
-                clipPath: "polygon(10% 0, 100% 0, 90% 100%, 0 100%)" 
+                boxShadow: "var(--shadow-elegant)"
               }}
             />
             <div
@@ -111,7 +110,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="mx-auto mt-20 max-w-8xl px-6 sm:px-10 lg:px-16">
+      <div className="mx-auto mt-20 max-w-7xl px-6 sm:px-10 lg:px-16">
         <Reveal delay={550}>
           <dl className="grid divide-y divide-border border border-border sm:grid-cols-3 sm:divide-x sm:divide-y-0">
             {[

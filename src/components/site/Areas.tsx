@@ -14,7 +14,7 @@ const IMAGES: Record<string, string> = {
 export function Areas() {
   return (
     <section id="atuacao" className="border-t border-border py-24 sm:py-32">
-      <div className="mx-auto max-w-8xl px-6 sm:px-10 lg:px-16">
+      <div className="mx-auto max-w-7xl px-6 sm:px-10 lg:px-16">
         <Reveal>
           <div className="max-w-2xl">
             <p className="eyebrow">Serviços</p>
